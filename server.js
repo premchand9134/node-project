@@ -74,6 +74,8 @@ app.post('/signup', async (req,res)=>{
 
     
 
+    
+
 
     
 })
@@ -93,8 +95,9 @@ app.post('/signin',async(req,res)=>{
         res.cookie('token',token,{maxAge:2*60*60*1000});
         res.redirect('/')       
         
-    }    
-
+    }  
+        
+   
     
     
    
